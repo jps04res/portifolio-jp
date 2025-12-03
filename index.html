@@ -69,7 +69,26 @@
                 <h2 class="text-center display-5 mb-5">Projetos Recentes</h2>
                 <div class="row g-4">
                     
-                    <div class="col-lg-4 col-md-6">
+
+                    
+
+                </div>
+            </div>
+<!--------------------------------------------carrosel------------------------------------------------>
+
+<div id="projetosCarousel" class="carousel slide" data-bs-ride="carousel">
+    
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#projetosCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#projetosCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    </div>
+
+    <div class="carousel-inner">
+        
+        <div class="carousel-item active">
+            <div class="row justify-content-center">
+                
+                <div class="col-lg-4 col-md-6">
                         <div class="project-card">
                             <h3 class="card-title">AppLogin com Firebase</h3>
                             <p class="card-text">Um app de login e cadastro com visual moderno (glassmorphism), Bootstrap 5 e autenticação real usando Firebase.</p>
@@ -83,9 +102,9 @@
                                 <i class="bi bi-github"></i> Ver no GitHub
                             </a>
                         </div>
-                    </div>
+                </div>
 
-                    <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-6">
                         <div class="project-card">
                             <h3 class="card-title">Meu Portfólio Web</h3>
                             <p class="card-text">Meu currículo digital e portfólio de projetos, construído com HTML, CSS moderno (Dark Mode, Flexbox) e JavaScript.</p>
@@ -99,8 +118,28 @@
                             </a>
                         </div>
                     </div>
-                    
-                    <div class="col-lg-4 col-md-6">
+
+                <div class="col-lg-4 col-md-6">
+                        <div class="project-card">
+                            <h3 class="card-title">Projeto de operação de game</h3>
+                            <p class="card-text">Esse site utiliza de projetos já existentes no github, mas com alterações únicas</p>
+                            <div class="card-tags">
+                                <span class="badge bg-primary">HTML</span>
+                                <span class="badge bg-info text-dark">CSS</span>
+                                <span class="badge bg-warning text-dark">JavaScript</span>
+                            </div>
+                            <a href="https://jps04res.github.io/mario-game/" class="btn btn-outline-light mt-4">
+                                <i class="bi bi-github"></i> Jogar agora
+                            </a>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <!-----------------sessao 2 carrossel----------------->
+        <div class="carousel-item">
+            <div class="row justify-content-center">
+                
+                <div class="col-lg-4 col-md-6">
                         <div class="project-card">
                             <h3 class="card-title">Próximo Projeto</h3>
                             <p class="card-text">Em breve, um novo projeto explorando [Tecnologia, ex: React ou Python] estará disponível aqui.</p>
@@ -114,7 +153,19 @@
                     </div>
 
                 </div>
-            </div>
+                </div>
+
+        </div>
+        </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#projetosCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#projetosCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
         </section>
 
         <section id="habilidades" class="container py-5 fade-in-section">
